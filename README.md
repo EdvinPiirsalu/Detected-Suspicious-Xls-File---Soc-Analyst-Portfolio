@@ -57,6 +57,7 @@ Opening the raw log revealed encrypted data:
 
 <img width="2100" height="652" alt="3" src="https://github.com/user-attachments/assets/d32ba3eb-1780-4e64-8630-b2489eea7249" />
 
+
 <img width="2117" height="762" alt="4" src="https://github.com/user-attachments/assets/6254609d-96bb-44de-80e7-30a64c29b8b1" />
 
 The traffic being encrypted is expected on port 443 (HTTPS), but observing that Sofia initiated an outbound connection to an unknown external IP at the exact moment the malicious file was detected raises suspicion. This is the macro executing and calling out to the attacker's C2 server.
@@ -68,6 +69,7 @@ The traffic being encrypted is expected on port 443 (HTTPS), but observing that 
 I submitted the MD5 hash `7ccf88c0bbe3b29bf19d877c4596a8d4` to VirusTotal.
 
 <img width="2527" height="1222" alt="5" src="https://github.com/user-attachments/assets/fa9128fd-31fb-4278-948b-1220d990cd6f" />
+
 
 <img width="1267" height="1218" alt="6" src="https://github.com/user-attachments/assets/a087a533-f2aa-4765-8c35-4f83680996e4" />
 
@@ -93,24 +95,36 @@ This is enough evidence to decide that this xsl file is indeed malicious and nee
 Unknown or unexpected outgoing internet traffic detected.
 
 
+
+
 <img width="988" height="462" alt="9" src="https://github.com/user-attachments/assets/af0822b7-d32b-4622-bdad-ea5eec21ce08" />
 File was not quarantined, device action was allowed.
+
+
 
 
 <img width="982" height="530" alt="10" src="https://github.com/user-attachments/assets/fa224869-f476-4d6c-929d-b08cc97b27a9" />
 File confirmed malicious via VirusTotal.
 
 
+
 <img width="977" height="518" alt="11" src="https://github.com/user-attachments/assets/afda077a-52b6-4ac9-bee8-53e936e55a23" />
 C2 address confirmed accessed, Sofia made outbound contact with the attacker's server.
 
 
+
+
 <img width="2052" height="827" alt="13" src="https://github.com/user-attachments/assets/945c6982-aaea-47dd-ba7a-24ff6128da54" />
+
 
 <img width="987" height="477" alt="12" src="https://github.com/user-attachments/assets/cc351de4-88cc-4aa5-91dd-e9bc7bbd25a3" />
 Host Sofia contained.
 
+
+
 <img width="2135" height="657" alt="16" src="https://github.com/user-attachments/assets/03b0e01d-95ef-4fe4-9a79-67f08f0d14cb" />
+
+
 
 <img width="977" height="717" alt="14" src="https://github.com/user-attachments/assets/884ff0c9-b7e2-4a50-940c-017b78e4f211" />
 Contained.
