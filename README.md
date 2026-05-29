@@ -1,5 +1,5 @@
 # SOC138 — Detected Suspicious XLS File
-SOC investigation writeup based on a real LetsDefend alert.
+SOC investigation writeup based on a real **LetsDefend.io** alert.
 
 ---
 
@@ -68,6 +68,7 @@ The traffic being encrypted is expected on port 443 (HTTPS), but observing that 
 I submitted the MD5 hash `7ccf88c0bbe3b29bf19d877c4596a8d4` to VirusTotal.
 
 <img width="2527" height="1222" alt="5" src="https://github.com/user-attachments/assets/fa9128fd-31fb-4278-948b-1220d990cd6f" />
+
 <img width="1267" height="1218" alt="6" src="https://github.com/user-attachments/assets/a087a533-f2aa-4765-8c35-4f83680996e4" />
 
 Multiple vendors flagged the file as malicious, and the file name "ORDER SHEET & SPEC.xlsm" appeared in the known malicious file names list. This confirms the file is a known threat, not a false positive.
@@ -91,20 +92,26 @@ This is enough evidence to decide that this xsl file is indeed malicious and nee
 <img width="1122" height="508" alt="8" src="https://github.com/user-attachments/assets/5076f42f-05b0-4b57-9688-eaf32b342dcf" />
 Unknown or unexpected outgoing internet traffic detected.
 
+
 <img width="988" height="462" alt="9" src="https://github.com/user-attachments/assets/af0822b7-d32b-4622-bdad-ea5eec21ce08" />
 File was not quarantined, device action was allowed.
+
 
 <img width="982" height="530" alt="10" src="https://github.com/user-attachments/assets/fa224869-f476-4d6c-929d-b08cc97b27a9" />
 File confirmed malicious via VirusTotal.
 
+
 <img width="977" height="518" alt="11" src="https://github.com/user-attachments/assets/afda077a-52b6-4ac9-bee8-53e936e55a23" />
 C2 address confirmed accessed, Sofia made outbound contact with the attacker's server.
 
+
 <img width="2052" height="827" alt="13" src="https://github.com/user-attachments/assets/945c6982-aaea-47dd-ba7a-24ff6128da54" />
+
 <img width="987" height="477" alt="12" src="https://github.com/user-attachments/assets/cc351de4-88cc-4aa5-91dd-e9bc7bbd25a3" />
 Host Sofia contained.
 
 <img width="2135" height="657" alt="16" src="https://github.com/user-attachments/assets/03b0e01d-95ef-4fe4-9a79-67f08f0d14cb" />
+
 <img width="977" height="717" alt="14" src="https://github.com/user-attachments/assets/884ff0c9-b7e2-4a50-940c-017b78e4f211" />
 Contained.
 
