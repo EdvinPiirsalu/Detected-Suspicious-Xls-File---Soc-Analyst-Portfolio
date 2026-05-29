@@ -104,6 +104,7 @@ File was not quarantined, device action was allowed.
 
 
 <img width="982" height="530" alt="10" src="https://github.com/user-attachments/assets/fa224869-f476-4d6c-929d-b08cc97b27a9" />
+
 File confirmed malicious via VirusTotal.
 
 
@@ -113,12 +114,20 @@ C2 address confirmed accessed, Sofia made outbound contact with the attacker's s
 
 
 
+<img width="987" height="477" alt="12" src="https://github.com/user-attachments/assets/cc351de4-88cc-4aa5-91dd-e9bc7bbd25a3" />
+
+
 
 <img width="2052" height="827" alt="13" src="https://github.com/user-attachments/assets/945c6982-aaea-47dd-ba7a-24ff6128da54" />
 
 
-<img width="987" height="477" alt="12" src="https://github.com/user-attachments/assets/cc351de4-88cc-4aa5-91dd-e9bc7bbd25a3" />
 Host Sofia contained.
+
+
+
+<img width="977" height="717" alt="14" src="https://github.com/user-attachments/assets/884ff0c9-b7e2-4a50-940c-017b78e4f211" />
+
+
 
 
 
@@ -126,8 +135,7 @@ Host Sofia contained.
 
 
 
-<img width="977" height="717" alt="14" src="https://github.com/user-attachments/assets/884ff0c9-b7e2-4a50-940c-017b78e4f211" />
-Contained.
+Conclusion.
 
 ---
 
